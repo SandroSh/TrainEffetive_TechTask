@@ -9,9 +9,7 @@ export const ResultBox = styled.div`
   padding: 14px 50px;
   z-index: 10;
 
-  &:last-child {
-    border-radius: 0 0 12px 12px;
-  }
+  
   @media (max-width: 590px) {
     padding: 14px 10px;
   }

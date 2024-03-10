@@ -94,3 +94,20 @@ body {
     top: 110%;
   }
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+
+  background-color: #fff;
+  border-radius: 0 0 10px 0;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #279df2;; 
+  border-radius: 10px;
+}

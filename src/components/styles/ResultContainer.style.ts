@@ -10,6 +10,6 @@ export const ResultContainer = styled.div`
   max-height:80vh;
   overflow-y:scroll;
   z-index:10;
-
+  border-radius:0 10px;
 `;
 

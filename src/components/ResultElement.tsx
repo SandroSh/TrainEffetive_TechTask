@@ -17,7 +17,7 @@ export const ResultElement = ({ myUser }: myUser) => {
     const { data: fetchedData } = useQuery({
         queryFn: () => fetchUser(`https://api.github.com/user/${myUser.id}`),
         queryKey: ['user', myUser.id], 
-        enabled: !!myUser.id, 
+        enabled: !!isVisible, 
         initialData: null, 
         
      });
