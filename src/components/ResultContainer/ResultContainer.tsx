@@ -1,6 +1,6 @@
-import { userData } from "../types"
-import { ResultElement } from "./ResultElement"
-import { ResultContainer } from "./styles/ResultContainer.style"
+import { userData } from "../../types"
+import { ResultElement } from "../ResultElement/ResultElement"
+import { ResultContainer } from "./ResultContainer.style"
 
 
 
